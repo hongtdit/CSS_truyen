@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1920px;
+    height: 1580px;
+}
+.header{
+    background-color: red;
+    width: 100%;
+    height: 150px;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+
+.category{
+    background-color: orange;
+    width: 100%;
+    height: 50px;
+}
+.category>a:nth-child(1){
+    padding-left: 200px;
+}
+.category>a{
+    
+    text-decoration: none;
+    line-height: 50px;
+}
+.category>a:hover{
+    text-decoration: underline;
+
+}
+.category>a:nth-child(2)::before{
+    content: " / ";
+}
+.slider{
+    background-color: green;
+    height: 250px;
+}
+.slider>img{
+    width: 1920px;
+    height: 250px
+}
+.content{
+    background-color: white ;
+    width: 100%;
+    height: 1150px;
+    display: flex;
+}
+.first-content{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    padding-left: 200px;
+}
+.tren{
+    display: block;
+    width: 25%;
+}
+.tren>p{
+    font-weight: bold;
+}
+.duoi{
+    
+    width: 45%;
+    margin-left: 50px;
+    text-align: center;
+}
+.second-content{
+    background-color: aliceblue;
+    width: 30%;
+    height: 100%;
+}
+.tren2{
+    border: 1px solid black;
+}
+.tren2>p>a{
+    padding: 15px 10px;
+    margin-left: 50px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+.tren2>p>a:hover{
+    text-decoration: underline;
+}
+.duoi2_sub{
+    display: flex;
+    margin-top: -10px;
+}
+.duoi2_sub>p{
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.sub_rightcontent{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.sub_rightcontent>p{
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.sub_rightcontent>a{
+    text-decoration: none;
+    color: #011001
+}
+.sub_rightcontent>a:hover{
+    text-decoration: underline;
+}
+.sub_rightcontent>a:nth-child(3)::before{
+    content: ",";
+}
+.chapter{
+    display: flex;
+    font-size: 20px;
+}
+.chapter>ul:nth-child(2){
+    margin-left: 200px;
+}
+.list-chapter>li>a{
+    color: black;
+    text-decoration: none;
+}
+.list-chapter>li>a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: blueviolet;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.footer>p{
+    margin-top: 0;
+    line-height: 80px;
+    color: white;
+}
