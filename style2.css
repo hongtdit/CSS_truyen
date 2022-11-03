@@ -7,7 +7,7 @@ body{
     height: 1580px;
 }
 .header{
-    background-color: red;
+    background-color: rgb(28, 4, 59);
     width: 100%;
     height: 150px;
 }
@@ -61,9 +61,7 @@ body{
     display: block;
     width: 25%;
 }
-.tren>p{
-    font-weight: bold;
-}
+
 .duoi{
     
     width: 45%;
@@ -148,3 +146,66 @@ body{
     line-height: 80px;
     color: white;
 }
+#nav{
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#nav > li{
+    display: inline-block;
+
+}
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a{
+    
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav li:hover a,
+#nav >li:hover> a{
+    color: #000;
+    background-color: #999;
+}
+
+#nav .nav-arrow-down{
+    font-size: 12px;}
+ #nav .subnav{
+        display: none; 
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        top: 100%;
+        left: 0;
+        
+    }
+    #nav .subnav a{
+        color: #000;
+        padding: 0 12px;
+        line-height: 38px;
+    }
+    .box img:hover {
+    -webkit-box-shadow: 6px 5px 12px 15px #615a5a; 
+box-shadow: 3px 5px 12px 15px #4d4a4a;
+}
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+

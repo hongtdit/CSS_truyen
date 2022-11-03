@@ -8,10 +8,31 @@
     <title>Document</title>
 </head>
 <body>
+    
     <div class="container ">
         <div class="header">
             <div class="navbar">
-                <div>Day La NavBar</div>
+                <div id="header">
+                    <!-- Begin NAV-->
+                    <ul id="nav">
+                        <li><a href="#home">Trang Chủ</a></li>
+                        <li><a href="#list">Danh Sách</a></li>
+                        <li><a href="#tour">Thể Loại</a></li>
+                        <li><a href="#contact">Liên Hệ</a></li>
+                        <li>
+                            <a href="#">
+                                More 
+                                <i class="nav-arrow-down ti-angle-down"></i>
+                            </a>
+                            <ul class="subnav">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Zalo</a></li>
+                                <li><a href="#">instagram</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                
+                </div>
             </div>
             <div class="category">
                 <a href="index.html">Truyen</a>
@@ -25,20 +46,23 @@
                 <div class="first-content">
                     <div style="display: flex">
                     <div class="tren">
-                        <h3>Thong Tin Truyen</h3>
-                        <img src="media/me-vo-khong-loi-ve-982891.jpg" alt="">
-                        <p>Tac Gia</p>
-                        <p>The Loai</p>
-                        <p>Nguon</p>
-                        <p>Trang Thai</p>
+                        <h3 id="home">Thông Tin Truyện</h3>
+                        <div class="box">
+                            <img src="media/me-vo-khong-loi-ve-982891.jpg" alt="">
+                        </div>
+                        <p><b>Tác giả</b>:  Chiêu Tài Tiến Bảo</p>
+                        <p><b>Thể Loại</b>: Ngôn Tình, Ngược, Sủng</p>
+                        <p><b>Nguồn</b>:  <a href="http://truyenfull.vn">truyenfull.vn</a></br> </p>
+                        <p><b>Trạng Thái</b>: Ngôn Tình, Ngược, Sủng</p>
+                        
                     </div>
                     <div class="duoi">
-                        <h2>MÊ VỢ KHÔNG LỐI VỀ</h2>
+                        <h2 >MÊ VỢ KHÔNG LỐI VỀ</h2>
                         <p>Một cuộc giao dịch, cô mang thai con của người lạ, mang bụng bầu gả cho người đàn ông đã đính ước từ nhỏ. Vốn cho rằng chỉ là một cuộc giao dịch, lại dây dưa thứ tình cảm không nên có trong cuộc hôn nhân này. Mười tháng hoài thai sắp sinh, một tờ đơn ly hôn trên đất, cô mới hoàn toàn tình ngộ. Sau này anh ta nói "Bà xã về đi, người anh yêu luôn là em"</p>
                     </div>
                 </div>
                 <div>
-                    <h2>Danh sach Chuong</h2>
+                    <h2 id="list">Danh Sách Chương</h2>
                     <div class="chapter">
                     <ul class="list-chapter">
                         <li>
@@ -79,6 +103,22 @@
                                 href="https://truyenfull.vn/me-vo-khong-loi-ve-982891/chuong-8/"
                                 title="Mê Vợ Không Lối Về - Chương 8: Anh muốn tôi nói thế nào?"><span class="chapter-text"><span>Chương
                                     </span></span>8: Anh muốn tôi nói thế nào?</a></li>
+                                    <li><span class="glyphicon glyphicon-certificate"></span> <a
+                                        href="https://truyenfull.vn/me-vo-khong-loi-ve-982891/chuong-9/"
+                                        title="Mê Vợ Không Lối Về - Chương 9: Ứng tuyển phiên dịch viên"><span class="chapter-text"><span>Chương
+                                            </span></span>9: Ứng tuyển phiên dịch viên</a></li>
+                                <li><span class="glyphicon glyphicon-certificate"></span> <a
+                                        href="https://truyenfull.vn/me-vo-khong-loi-ve-982891/chuong-10/"
+                                        title="Mê Vợ Không Lối Về - Chương 10: Bị người cản trở từ bên trong"><span
+                                            class="chapter-text"><span>Chương </span></span>10: Bị người cản trở từ bên trong</a></li>
+                                <li><span class="glyphicon glyphicon-certificate"></span> <a
+                                        href="https://truyenfull.vn/me-vo-khong-loi-ve-982891/chuong-11/"
+                                        title="Mê Vợ Không Lối Về - Chương 11: Đừng để bị lừa bởi vẻ bề ngoài"><span
+                                            class="chapter-text"><span>Chương </span></span>11: Đừng để bị lừa bởi vẻ bề ngoài</a></li>
+                                <li><span class="glyphicon glyphicon-certificate"></span> <a
+                                        href="https://truyenfull.vn/me-vo-khong-loi-ve-982891/chuong-12/"
+                                        title="Mê Vợ Không Lối Về - Chương 12: Sau này gọi là anh trai"><span class="chapter-text"><span>Chương
+                                            </span></span>12: Sau này gọi là anh trai</a></li>
                                     </ul>
                         <ul class="list-chapter">
                                         <li><span class="glyphicon glyphicon-certificate"></span> <a
@@ -131,44 +171,99 @@
                 </div>
                 <div class="second-content">
                     <div class="tren2">
-                        <h1>Truyen Cung Tac Gia</h1>
-                         <p> <a href="">Tran Dinh Hong</a></p>
-                         <p><a href="">Ha Huy Quang</a></br></p>
-                    <p><a href="">Nguyen Huu Hung</a></p>
+                        <h1>Truyện Cùng Tác Giả</h1>
+                        <ol type="1" start="1">
+                            <li><a href="">Sau khi ly hôn chồng cũ luôn muốn theo đuổi tôi</a></li>
+                            <li><a href="">Sự hấp dẫn của tổng tài</a></li>
+                            <li><a href="">Vợ cũ mang thai anh yêu em</a></li>
+                            
+                        </ol>
+                    
                     </div>
                     <div class="duoi2">
                         <h1>Truyen Dang hot</h1>
                         <div class="duoi2_sub">
                             <p>1</p>
                             <div class="sub_rightcontent">
-                                <p>Than Dao Dan Ton</p>
-                                <a href="">Tien hiep</a>
-                                <a href="">Huyen Huyen</a>
+                                <p>Thần Đạo Đan Tôn</p>
+                                <a href="">Tiên Hiệp</a>
+                                <a href="">Trọng Sinh</a>
                             </div>
                         </div>
                         <div class="duoi2_sub">
-                            <p>1</p>
+                            <p>2</p>
                             <div class="sub_rightcontent">
-                                <p>Than Dao Dan Ton</p>
-                                <a href="">Tien hiep</a>
-                                <a href="">Huyen Huyen</a>
+                                <p>Đấu La Đại Lục</p>
+                                <a href="">Tiên Hiệp</a>
+                                <a href="">Kiếm Hiệp</a>
                             </div>
                         </div>
                         <div class="duoi2_sub">
-                            <p>1</p>
+                            <p>3</p>
                             <div class="sub_rightcontent">
-                                <p>Than Dao Dan Ton</p>
-                                <a href="">Tien hiep</a>
-                                <a href="">Huyen Huyen</a>
+                                <p>Đấu Phá Thương Khung</p>
+                                <a href="">Tiên Hiệp</a>
+                                <a href="">Huyên Huyên</a>
                             </div>
                         </div>
                         
                     </div>
                 </div>
         </div>
-        <div class="footer">
+        <div class="footer" id="footer">
            <P>Website hoạt động dưới Giấy phép truy cập mở Creative Commons Attribution 4.0 International License</P>
         </div>
+        <div id="footer">
+            <div class="social-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="coppy-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
+
+
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                Tickets
+            </header>
+            <div class="modal-body">
+                <label for="ticket-quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+
+                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+            
+                <label for="ticket-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send To
+                </label>
+
+                <input id="ticket-email" type="text" class="modal-input" placeholder="Enter email">
+                <button id="buy-tickets">
+                    Pay <i class="ti-check"></i>
+                </button>
+
+
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">
+                    Need <a class="help" href="">help?</a>
+                </p>
+            </footer>
     </div>
 </body>
 </html>
